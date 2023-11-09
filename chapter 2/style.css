@@ -1,0 +1,116 @@
+   body {
+            background-color: #d6e4ee;
+            margin: 0;
+        }
+    
+        a {
+            color: blue;
+            font-size: 10px;
+        }
+    
+        #logo {
+            width: 50px;
+        }
+    
+        #article-cover {
+            width: 100%;
+        }
+    
+        .article-info {
+            color: grey;
+        }
+    
+    #main-section-container {
+        display: flex;
+        width: 80%; 
+        margin: 15px auto; 
+    }
+    
+    #header-wrapper {
+        background-color: white;
+    }
+    
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    #logo-search-container {
+        display: flex;
+    }
+    
+    #header input {
+        margin-left: 10px;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        width: 300px;
+    }
+    
+    #article-section {
+       width: 70%;  
+       background-color: white; 
+    }
+    
+    #article-section div {
+        padding: 15px;
+    }
+    
+    #side-section {
+        width: 30%;
+        margin-left: 15px;
+    }
+    
+    #side-section div {
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #footer {
+        background-color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+        color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    #hide-btn {
+        color: darkred;
+        border: 1px solid darkred;
+    }
+
+    #save-btn {
+        color: darkgreen;
+        border: 1px solid darkgreen;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    #post-form-container {
+        max-width: 300px;
+        padding: 10px;
+        margin: auto;
+        display: none;
+    }
+
+    #post-form-container input,textarea {
+        width: 100%;
+        margin: 5px 0 20px 0;
+        padding: 10px;
+    }

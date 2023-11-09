@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pink Thinking Potato</title>
+        <link rel="stylesheet" href= "style.css">
+        <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+        <link rel="icon" type="image/png" href="favicon/favicon.png">
+        <meta name="keywords" content="potato, cute, pink">
+        <meta name="description" content="silly article about cute stuff">
+        <script src="D:\IT course\Javascript\app2.js"></script>
+    </head>
+    <body>
+        <div id="header-wrapper">
+            <div id="header">
+                <div id="logo-search-container">
+                    <img id="logo" src= "https://i.pinimg.com/236x/29/ef/f0/29eff011a82f5973ad8a8138269c8db8.jpg"/>
+                    <input type="text" placeholder="Search..."/>
+                </div>
+                <button onclick="handleCreatePost()">Create post</button>
+            </div>
+        </div>
+
+        <div id="post-form-container">
+            <form>
+                <label><b>Title</b></label>
+                <input type="text" placeholder="Enter title">
+                <label><b>Description</b></label>
+                <input type="text" placeholder="Enter description">
+                <label><b>Post</b></label>
+                <textarea placeholder="Your post..."></textarea>
+                <button id="hide-btn" onclick="hidePostForm()">Hide form</button> 
+                <button id="save-btn">Save form</button> 
+            </form>
+        </div>
+
+        <div id="main-section-container">
+            <div id="article-section">
+                <img id="article-cover" src= "https://i.pinimg.com/564x/47/f9/f6/47f9f6ca0cfa541870e7953e63a7eb08.jpg"/>
+                <div>
+                <h1>Article title</h1>
+                <h3>Short information on article</h3>
+                <p class="article-info"><i>Written by: Jade Wong</i></p>
+                <p class="article-info"><i>Date: 03/08/2023</i></p>
+                </div>
+                
+
+                <div>
+                <p>Paragraphe 1</p>
+                <P>Paragraphe 2</p>
+
+                <h4>Section header</h4>
+                <p>Paragraphe 1</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                </div>
+            </div>
+
+        <div id="side-section">
+            <div>
+            <h2>Side section</h2>
+            <h3>Another article title</h3>
+            <h4>Another article short info</h4>
+            <a href="https://dev.to/top/week">Click to see article</a> 
+            </div>
+
+            <div>
+            <h2>Also side section</h2>
+            <h3>Article title</h3>
+            <h4>Short description</h4>
+            <a href="https://dev.to/ben/meme-monday-51j1">Click to see article</a> 
+            </div>
+        </div>
+    </div>    
+
+    <div id="footer">
+        <p>This is the footer</p>
+    </div>
+
+    </body>
+</html>
